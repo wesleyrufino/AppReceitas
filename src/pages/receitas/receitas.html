@@ -1,0 +1,23 @@
+<<ion-header>
+  <ion-navbar color="secondary">
+      <ion-title text-center color="primary">
+          Receita
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="centralizar"> <img src="{{Receitas.imagem}}" height="150" width="250"> </div>
+<br>  
+<br>
+<div class="centralizar">
+  <ion-icon name="md-information-circle"color="primary"></ion-icon> Receita {{Receitas.nome}} </div> 
+<br> 
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Ingredientes: {{Receitas.ingredientes}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Preparo: {{Receitas.preparo}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Tempo: {{Receitas.tempo}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Rendimento: {{Receitas.rendimento}} </p>
+  <div class="centralizar">
+    
+  </div>
+</ion-content>
