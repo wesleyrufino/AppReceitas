@@ -1,0 +1,77 @@
+{ "receitas" :
+
+	[
+		  {"id" : 1, "nome" : "Pão de Queijo", "imagem": "../assets/imgs/pq.png", 
+			"ingredientes": "-500 g de polvilho azedo;
+			-1 copo (americano) de água;
+			-1 copo (americano) de leite;
+			-1/2 xícara de óleo;
+			-2 ovos;
+		    -100 g de queijo parmesão ralado;
+			-sal a gosto.", 
+			"preparo" : "1 Em uma panela, ferva a água e acrescente o leite, o óleo e o sal,
+			2 Adicione o polvilho, misture bem e comece a sovar a massa com o fogo desligado,
+			3 Quando a massa estiver morna, acrescente o queijo parmesão, os ovos e misture bem,
+			4 Unte as mãos e enrole bolinhas de 2 cm de diâmetro,
+			5 Disponha as bolinhas em uma assadeira untada com óleo, deixando um espaço entre elas,
+			6 Asse em forno médio (180º C), preaquecido, por cerca de 40 minutos.", 
+			"tempo": "40 min", "rendimento" : "30 porções"},
+		  {"id" : 2, "nome" : "Lasanha", "imagem": "../assets/imgs/las.png",
+		 "ingredientes": "-500 g de massa de lasanha;
+		 -500 g de carne moída;
+		 -2 caixas de creme de leite;
+		 -3 colheres de manteiga;
+		 -3 colheres de farinha de trigo;
+		 -500 g de presunto;
+		 -500 g de mussarela;
+		 -sal a gosto;
+		 -2 copos de leite;
+		 -1 cebola ralada;
+		 -3 colheres de óleo;
+		 -1 caixa de molho de tomate;
+		 -3 dentes de alho amassados;
+		 -1 pacote de queijo ralado.",
+		 "preparo" : "LASANHA:
+		 1 Cozinhe a massa segundo as orientações do fabricante, 
+		 2 Despeje em um refratário com água gelada para não grudar e reserve.
+		 MOLHO À BOLONHESA:
+          1 Refogue o alho, a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.
+		 MOLHO BRANCO:
+		 1 Derreta a margarina, coloque as 3 colheres de farinha de trigo e mexa,
+		 2 Despeje o leite aos poucos e continue mexendo,
+		 3 Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.
+		 MONTAGEM:
+		 1 Despeje uma parte do molho à bolonhesa em um refratário, a metade da massa, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa,
+		 2 Repita as camadas até a borda do recipiente,
+		 3 Finalize com o queijo ralado e leve ao forno alto (220° C), preaquecido, por cerca de 20 minutos.", 
+		 "tempo": "50 min", "rendimento" : "15 porções"},
+		  {"id" : 3, "nome" : "Brigadeiro", "imagem": "../assets/imgs/brig.png",
+		"ingredientes": "- 1 caixa de leite condensado;
+		- 1 colher (sopa) de margarina sem sal;
+		- 7 colheres (sopa) de achocolatado ou 4 colheres (sopa) de chocolate em pó
+		- chocolate granulado.", 
+		"preparo" : "1 Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó,
+		2 Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela,
+		3 Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado.", 
+		"tempo": "25 min", "rendimento" : "30 porções"},
+		  {"id" : 4, "nome" : "Arroz de Forno", "imagem": "../assets/imgs/af.png",
+		"ingredientes": "- 4 xícaras de arroz cozido (arroz de véspera),
+		- 100 g de queijo mussarela ralada,
+		- 100 g de presunto cortado em cubos,
+		- 1 cenoura média ralada,
+		- 1 xícara de leite,
+		- 2 ovos,
+		- 1/2 pote de requeijão,
+		- 50 g de queijo ralado,
+		- Sal e pimenta a gosto.", 
+		"preparo" : "1 Em um refratário médio misture o arroz, a mussarela, o presunto e a cenoura,
+		2 Reserve,
+		3 No liquidificador bata os demais ingredientes,
+		4 Passe essa mistura após batida para o refratário com o arroz e misture bem,
+		5 Coloque em uma travessa média,
+		6 Asse em forno previamente aquecido, por 25 minutos,
+		7 Se possível use o dourador do forno por mais 5 minutos,
+		8 Retire e sirva ainda quente.", 
+		"tempo": "30 min", "rendimento" : "10 porções"}
+	]
+}
