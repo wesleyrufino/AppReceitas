@@ -1,3 +1,4 @@
+import { PaginareceitasPage } from './../pages/paginareceitas/paginareceitas';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -13,7 +14,8 @@ import { HttpModule } from '@angular/http';
   declarations: [
     MyApp,
     HomePage,
-    ReceitasPage
+    ReceitasPage,
+    PaginareceitasPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    ReceitasPage
+    ReceitasPage,
+    PaginareceitasPage
   ],
   providers: [
     StatusBar,

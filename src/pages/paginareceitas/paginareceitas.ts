@@ -1,12 +1,9 @@
+import { ReceitasPage } from './../receitas/receitas';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import 'rxjs/add/operator/map';
+import { Http } from '@angular/http';
 
-/**
- * Generated class for the PaginareceitasPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @Component({
   selector: 'page-paginareceitas',
@@ -14,10 +11,26 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PaginareceitasPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  receitas = [];
+
+  constructor(public navCtrl: NavController, private http : Http) {
+
   }
 
-  ionViewDidLoad() {
+  ionViewWillEnter(){
+    this.obterReceitasAPI();
+  }
+
+  selecionaReceita(x) {
+    console.log(x.nome);
+    this.navCtrl.push(ReceitasPage, { receitaSelecionada : x } );
+  }
+
+  obterReceitasAPI() {
+    this.http.get('http://localhost:3000/receitas')
+        .map(response => response.json())
+        .toPromise()
+        .then(response => this.receitas = response);
   }
 
 }
